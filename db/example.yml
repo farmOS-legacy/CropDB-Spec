@@ -1,0 +1,11 @@
+# This file shows an example CropDB definition.
+
+# The id (machine name) of the crop.
+id: example
+
+# The UUID of the crop.
+uuid: de305d54-75b4-431b-adb2-eb6b9e546014
+
+# The crop's human-readable label.
+label: 'An example crop'
+

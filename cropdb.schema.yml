@@ -1,0 +1,19 @@
+# Schema for CropDB data files.
+
+# This schema describes how all the various pieces of data about a crop should
+# be stored and represented.
+
+cropdb.crop.*:
+  type: mapping
+  label: 'Crop'
+  mapping:
+    id:
+      type: string
+      label: 'Crop id'
+    uuid:
+      type: string
+      label: 'UUID'
+    label:
+      type: label
+      label: 'Label'
+
