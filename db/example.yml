@@ -14,3 +14,15 @@ inherits: 411ed966-2ada-4793-ac2e-74abb56a57ea
 # The crop's human-readable label.
 label: 'An example crop'
 
+# Days to maturity - how long does it take for the crop to reach maturity, on
+# average? This should be represented as an integer.
+data.days_to_maturity: 21
+
+# Frost tolerance - how tolerant is this crop of cold weather? This should be
+# represented as an integer between 0-3:
+#   0 - no tolerance
+#   1 - tolerates mild frost
+#   2 - good frost tolerance
+#   3 - very good frost tolerance
+data.frost_tolerance: '1'
+

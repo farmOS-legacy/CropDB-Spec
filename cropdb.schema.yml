@@ -19,4 +19,14 @@ cropdb.crop.*:
     label:
       type: label
       label: 'Label'
-
+    data:
+      type: mapping
+      label: 'Cultivation data'
+      mapping:
+        days_to_maturity:
+          type: integer
+          label: 'Days to maturity'
+        frost_tolerance:
+          type: integer
+          label: 'Frost tolerance'
+ 
