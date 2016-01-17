@@ -6,6 +6,11 @@ id: example
 # The UUID of the crop.
 uuid: de305d54-75b4-431b-adb2-eb6b9e546014
 
+# Define a parent crop's UUID to inherit from. This is optional, but if it is
+# provided, all data will be inherited from it. The data in this file will then
+# override and extend it.
+inherits: 411ed966-2ada-4793-ac2e-74abb56a57ea
+
 # The crop's human-readable label.
 label: 'An example crop'
 

@@ -13,6 +13,9 @@ cropdb.crop.*:
     uuid:
       type: string
       label: 'UUID'
+    inherits:
+      type: string
+      label: 'Inherits'
     label:
       type: label
       label: 'Label'
